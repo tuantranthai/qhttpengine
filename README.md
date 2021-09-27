@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/nitroshare/qhttpengine.svg?branch=master)](https://travis-ci.org/nitroshare/qhttpengine)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 
+This forked version adds the support of HTTP redirection codes 307 & 308.
+
 Simple set of classes for developing HTTP server applications in Qt.
 
 ### Documentation
