@@ -84,6 +84,8 @@ QByteArray SocketPrivate::statusReason(int statusCode) const
     case Socket::PartialContent: return "PARTIAL CONTENT";
     case Socket::MovedPermanently: return "MOVED PERMANENTLY";
     case Socket::Found: return "FOUND";
+    case Socket::TemporaryRedirect: return "TEMPORARY REDIRECT";
+    case Socket::PermanentRedirect: return "PERMANENT REDIRECT";
     case Socket::BadRequest: return "BAD REQUEST";
     case Socket::Unauthorized: return "UNAUTHORIZED";
     case Socket::Forbidden: return "FORBIDDEN";
