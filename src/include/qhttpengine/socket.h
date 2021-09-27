@@ -154,6 +154,10 @@ public:
         MovedPermanently = 301,
         /// Resource is available at an alternate URI
         Found = 302,
+        /// Temporary redirect
+        TemporaryRedirect = 307,
+        /// Permanent redirect
+        PermanentRedirect = 308,
         /// Bad client request
         BadRequest = 400,
         /// Client is unauthorized to access the resource
